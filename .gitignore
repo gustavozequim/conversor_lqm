@@ -6,3 +6,5 @@ drawings/
 *.jlqm
 *.mtd
 *.zip
+*.txt
+.env

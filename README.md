@@ -1,11 +1,11 @@
 # CONVERSOR LQM PARA TXT
 
-##O QUE É O .LQM?:
+## O QUE É O .LQM?:
   -  Arquivos .lqm são notas criadas pelo aplicativo QuickMemo+ em dispositivos LG, geralmente contendo texto e imagens comprimidas em formato .zip
-##Objetivo:
+## Objetivo:
   - O objetivo desse script é simples, ele fará a conversão dos arquivos .lqm para arquivos .txt na pasta indicada.
 
-##Como funciona:
+## Como funciona:
   - Os arquivos .lqm vem como um .zip, o script extrai esse .zip.
   - Dentro desse .zip, existem outras pastas, mas a pasta que nos interessa é a "/images/";
   - Dentro dessa pasta (em todos os testes que fiz), contém arquivos de imagens com o texto escrito;

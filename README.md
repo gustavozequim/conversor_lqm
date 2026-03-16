@@ -1,4 +1,6 @@
 # CONVERSOR LQM PARA TXT
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green)
 
 ## O QUE É O .LQM?:
   -  Arquivos .lqm são notas criadas pelo aplicativo QuickMemo+ em dispositivos LG, geralmente contendo texto e imagens comprimidas em formato .zip
@@ -15,7 +17,7 @@
 # Estrutura
 ```
 conversor_lqm\
-  L .gitigbore
+  L .gitignore
   L lqm_converter.py
   L README.md
 ```

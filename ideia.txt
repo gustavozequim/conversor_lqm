@@ -1,0 +1,1 @@
+converter os arquivos para zip, percorrer os zips encotrar as imagens, extrair os textos das imagens para um arquivo .txt

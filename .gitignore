@@ -1,0 +1,8 @@
+images/
+audios/
+txt/
+videos/
+drawings/
+*.jlqm
+*.mtd
+*.zip

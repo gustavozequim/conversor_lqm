@@ -11,3 +11,11 @@
   - Dentro dessa pasta (em todos os testes que fiz), contém arquivos de imagens com o texto escrito;
   - O script localiza essa imagem (sendo uma imagem por arquivo .zip), e faz a leitura do texto ali contido;
   - Em seguida, armazena esse texto em uma variável e, posteriormente, o salva em um arquivo .txt.
+
+# Estrutura
+```
+conversor_lqm\
+  L .gitigbore
+  L lqm_converter.py
+  L README.md
+```

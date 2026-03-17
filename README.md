@@ -21,3 +21,17 @@ conversor_lqm\
   L lqm_converter.py
   L README.md
 ```
+## Utilização:
+  - Para utilizar, clone o projeto no seu PC:
+  ```
+    - git clone https://github.com/gustavozequim/conversor_lqm
+  ```
+  - Em seguida, instale o requirements.txt:
+  ```
+    - pip install -r requirements.txt
+  ```
+  - Execute:
+  ```
+    - python .\lqm_converter.py
+  ```
+  Assim, o script irá percorrer o diretório atual e até encontrar uma arquivo .zip, extrair ele, procurar a pasta de "images/", e extrair o texto da imagem presente nesta pasta.

@@ -15,17 +15,25 @@ def converte_lqm():
     caminho_imagem = Path('./images')
     caminho_txt = Path('./txt')
     caminho_txt.mkdir(exist_ok=True)
+    print(contagem)
+    for raiz, pastas, arquivos in os.walk(pasta):
+        for arquivo in arquivos:
+            if arquivo.endswith('.txt'):
+                contagem += 1
 
     for raiz, pastas, arquivos in os.walk(pasta):
-        print(f"Diretório atual: {raiz}")
+        if raiz == ".\.git":
+            continue
         for arquivo in arquivos:
-            print(f" - Arquivo: {os.path.join(raiz, arquivo)}")
             if arquivo.endswith('.zip'):
                 with ZipFile(arquivo, 'r') as zip_out:
                     zip_out.extractall()
               
     if caminho_imagem.exists():
-        contagem += 1
+        if contagem != 0:
+            pass
+        else:
+            contagem += 1
         print('blz')
         for raiz, pastas, arquivos in os.walk(caminho_imagem):
             print(f"Diretório atual: {raiz}")

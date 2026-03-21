@@ -6,5 +6,5 @@ drawings/
 *.jlqm
 *.mtd
 *.zip
-*.txt
+if not requirements.txt *.txt
 .env

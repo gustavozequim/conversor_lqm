@@ -30,6 +30,8 @@ conversor_lqm\
   ```
     - pip install -r requirements.txt
   ```
+  - Renomeie o arquivo ".env_model" para ".env", e altere os caminhos
+  
   - Execute:
   ```
     - python .\lqm_converter.py

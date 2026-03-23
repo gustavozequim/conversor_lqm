@@ -8,3 +8,4 @@ drawings/
 *.zip
 if not requirements.txt *.txt
 .env
+*.lqm

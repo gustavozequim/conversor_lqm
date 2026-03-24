@@ -35,6 +35,14 @@ conversor_lqm\
     - git clone https://github.com/gustavozequim/conversor_lqm
   ```
   - Em seguida, instale o requirements.txt:
+      - Obs: Antes de instalar o requirements.txt, crie uma venv no Python:
+        ```
+          - python -m venv <escolha um nome para o ambiente>
+          - python .\<nome do ambiente>\Sripts\Activate        
+        ```
+        Isso garante que você irá instalar as dependências apenas naquele projeto, não afetam nenhum de seus outros projetos.
+  
+  Após a configuração do ambiente virtual, e inicialização do mesmo, instale as dependências:
   ```
     - pip install -r requirements.txt
   ```

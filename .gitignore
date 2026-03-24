@@ -11,3 +11,4 @@ if not requirements.txt *.txt
 *.lqm
 __pycache__/
 *.pyc
+.venv

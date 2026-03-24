@@ -17,9 +17,17 @@
 # Estrutura
 ```
 conversor_lqm\
+  L src\
+    L __init__.py
+    L app.py
+    L extrai_arquivos.py
+    L lqm_converter.py
+    L salva_arquivos.py
+  L .env_model
   L .gitignore
-  L lqm_converter.py
   L README.md
+  L ideia.txt
+  L requirements.txt
 ```
 ## Utilização:
   - Para utilizar, clone o projeto no seu PC:

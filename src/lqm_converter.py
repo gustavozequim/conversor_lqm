@@ -6,11 +6,12 @@ from extrai_arquivos import extrai_arquivos
 from salva_arquivos import salva_arquivos
 from pathlib import Path
 import os
+load_dotenv()
 
 
 def converte_lqm():
     contagem = -2
-    pasta_raiz = os.getenv('CAMINHO_NOTAS_LG')
+    pasta_raiz = os.getenv('CAMINHO_NOTAS_LG') # Caminho da pasta raiz onde estão os arquivos .lqm e .zip
     caminho_imagem = Path('./images')
     caminho_txt = Path(f'./txt')
     caminho_txt.mkdir(exist_ok=True)

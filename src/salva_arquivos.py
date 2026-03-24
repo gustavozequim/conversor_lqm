@@ -21,6 +21,6 @@ def salva_arquivos(caminho_imagem, caminho_txt, contagem):
                 if arquivo.endswith('.jpg'):
                     imagem = cv2.imread(f"{caminho_imagem}/{arquivo}")
                     texto = pytesseract.image_to_string(imagem)
-                    with open(f"{caminho_txt}/{contagem}.txt", 'wb') as arquivo_texto: # Salvando o texto extraído em um arquivo .txt
-                        arquivo_texto.write(texto.encode('utf-8'))
+                    with open(f"{caminho_txt}/{contagem}.txt", 'w') as arquivo_texto: # Salvando o texto extraído em um arquivo .txt
+                        arquivo_texto.write(texto)
                         arquivo_texto.close()

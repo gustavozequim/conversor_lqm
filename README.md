@@ -34,6 +34,6 @@ conversor_lqm\
   
   - Execute:
   ```
-    - python .\lqm_converter.py
+    - python .\src\app.py
   ```
   Assim, o script irá percorrer o diretório atual e até encontrar uma arquivo .zip, extrair ele, procurar a pasta de "images/", e extrair o texto da imagem presente nesta pasta.

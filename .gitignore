@@ -9,3 +9,5 @@ drawings/
 if not requirements.txt *.txt
 .env
 *.lqm
+__pycache__/
+*.pyc
